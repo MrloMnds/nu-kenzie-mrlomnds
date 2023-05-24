@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --gray-100: #F8F9FA;
+  --gray-200: #E9ECEF;
+  --gray-300: #343A40;
+  --gray-400: #212529;
+  --brand-100: #FD377E;
+  --brand-200: #E34981;
+  --secondary: #03B898;
+
+  --font-1: 2.375rem;
+  --font-2: 1.375rem;
+  --font-3: 1rem;
+  --font-4: 0.75rem;
+}

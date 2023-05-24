@@ -1,0 +1,23 @@
+.whiteText {
+  color: white;
+}
+.blackText {
+  color: black;
+}
+
+.title {
+  font-weight: 700;
+}
+.titleOne {
+  font-size: 44px;
+}
+.titleTwo {
+  font-size: 40px;
+}
+.titleThree {
+  font-size: 36px;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+}

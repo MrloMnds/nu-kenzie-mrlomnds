@@ -1,0 +1,18 @@
+.loginButtonHome {
+  font-size: var(--font-2);
+  background-color: var(--brand-100);
+  border-radius: 8px;
+  height: 48px;
+  width: 241px;
+}
+.loginButtonHome:hover {
+  background-color: var(--brand-200);
+}
+
+@media (max-width: 769px) {
+  .loginButtonHome {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}

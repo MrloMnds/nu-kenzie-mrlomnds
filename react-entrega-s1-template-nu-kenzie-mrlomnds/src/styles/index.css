@@ -1,0 +1,41 @@
+@import './reset.css';
+@import './typography.css';
+@import './grid.css';
+@import './loginButton.css';
+@import './buttons.css';
+@import './mainPage.css';
+@import './inputs.css';
+@import './card.css';
+
+.background {
+  background-color: var(--gray-400);
+}
+
+.divHomeInfo {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.divHomeInfo>img {
+  width: 35%;
+}
+
+.divHomeImg {
+  width: 55%;
+}
+.divHomeImg>img{
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+  .divHomeImg {
+    display: none;
+  }
+  .divHomeInfo {
+    width: 100%;
+  }
+  .divHomeInfo>img {
+    width: 20vh;
+  }
+}

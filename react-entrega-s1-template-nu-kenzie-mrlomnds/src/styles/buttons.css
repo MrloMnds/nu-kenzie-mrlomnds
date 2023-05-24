@@ -1,0 +1,45 @@
+.buttonStyle {
+  background-color: var(--gray-200);
+  padding: 10px 17px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.selectedButton {
+  background-color: var(--brand-100);
+  color: white;
+}
+
+.buttonSubmit {
+  background-color: var(--brand-100);
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+}
+
+.trashButton {
+  padding: 5px 10px;
+}
+.trashButton>img {
+  height: 55%;
+}
+
+.buttonStyle:hover, .trashButton:hover {
+  background-color: var(--gray-100);
+}
+.buttonSubmit:hover, .selectedButton:hover {
+  background-color: var(--brand-200);
+}
+
+@media (max-width: 769px) {
+  .trashButton {
+    position: absolute;
+    right: 15px;
+  }
+  .trashButton {
+    padding: 5px 10px;
+  }
+  .trashButton>img {
+    height: 15px;
+  }
+}

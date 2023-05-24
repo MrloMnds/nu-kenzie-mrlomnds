@@ -1,0 +1,27 @@
+.card {
+  background-color: var(--gray-100);
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid var(--secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card>div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardNegative {
+  border-left: 5px solid var(--gray-200);
+}
+
+@media (max-width: 769px) {
+  .card {
+    position: relative;
+  }
+  .card>div {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.inputStyle {
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--gray-200);
+  padding-left: 15px;
+  height: 48px;
+}
+.inputStyle2 {
+  border: none;
+  border-radius: 8px;
+  background-color: var(--gray-200);
+  padding-inline: 15px;
+  height: 48px;
+}
